@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="20%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="@dimen/key_height">
+
+    <Row>
+        <Key android:codes="12593" android:keyLabel="ㄱ" android:keyEdgeFlags="left"/>
+        <Key android:codes="12596" android:keyLabel="ㄴ"/>
+        <Key android:codes="12599" android:keyLabel="ㄷ" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="12601" android:keyLabel="ㄹ" android:keyEdgeFlags="left"/>
+        <Key android:codes="12609" android:keyLabel="ㅁ"/>
+        <Key android:codes="12610" android:keyLabel="ㅂ" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="12613" android:keyLabel="ㅅ" android:keyEdgeFlags="left"/>
+        <Key android:codes="12615" android:keyLabel="ㅇ"/>
+        <Key android:codes="12616" android:keyLabel="ㅈ" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="12624" android:keyLabel="ㅎ" android:keyEdgeFlags="left"/>
+        <Key android:codes="-1" android:keyLabel="한/영"/>
+        <Key android:codes="32" android:keyLabel="띄어쓰기" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard> 
